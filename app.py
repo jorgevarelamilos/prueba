@@ -6,10 +6,10 @@ import os
 
 # conexion MySQL
 app=Flask(__name__, template_folder='templates')
-app.config['MYSQL_HOST']='localhost'
-app.config['MYSQL_USER']='jvvm'
-app.config['MYSQL_PASSWORD']='password'
-app.config['MYSQL_DB']='flaskcontacts'
+app.config['MYSQL_HOST']='sql10.freemysqlhosting.net 
+app.config['MYSQL_USER']='sql10500057'
+app.config['MYSQL_PASSWORD']='Yq963gTDhQ'
+app.config['MYSQL_DB']='sql10500057'
 mysql=MySQL(app)
 
 #configurar sesion 
