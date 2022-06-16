@@ -6,7 +6,7 @@ import os
 
 # conexion MySQL
 app=Flask(__name__, template_folder='templates')
-app.config['MYSQL_HOST']='sql10.freemysqlhosting.net 
+app.config['MYSQL_HOST']='sql10.freemysqlhosting.net'
 app.config['MYSQL_USER']='sql10500057'
 app.config['MYSQL_PASSWORD']='Yq963gTDhQ'
 app.config['MYSQL_DB']='sql10500057'
