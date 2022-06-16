@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 
 from flask_mysqldb import MySQL
-import os
+
 
 # conexion MySQL
 app=Flask(__name__, template_folder='templates')
@@ -80,5 +80,5 @@ def planes():
 
 
 if __name__=='__main__':
-    os.environ['FLASK_ENV']="development"
-    app.run(host='0.0.0.0', debug=True)
+    
+    app.run(host='0.0.0.0')
